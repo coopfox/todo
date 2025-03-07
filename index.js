@@ -3,6 +3,7 @@ function sayhello(name) {
     const fancyname = splitname(name)
         .map(name => capitalizename(name))
         .join(" ");
+        
     console.log(`Hello ${fancyname}!`);
 }
 
